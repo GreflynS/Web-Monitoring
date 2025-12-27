@@ -1,149 +1,139 @@
-Web Monitoring System
-📌 Deskripsi Proyek
+# Web Monitoring System
+
+## 📌 Deskripsi Proyek
 
 Web Monitoring System adalah aplikasi berbasis web yang digunakan untuk memantau dan mengelola aktivitas operasional secara terpusat. Sistem ini dirancang untuk membantu admin dan staff dalam mengelola data operasional seperti user, cabang, ruangan, shift, patroli, training, dan visit secara efisien melalui tampilan dashboard yang terstruktur.
 
 Aplikasi ini dikembangkan sebagai bagian dari proyek akademik dan berfokus pada kemudahan penggunaan, konsistensi tampilan, serta pengelolaan data yang terintegrasi.
 
-🎯 Tujuan
+---
 
-Menyediakan sistem monitoring operasional berbasis web
+## 🎯 Tujuan
 
-Mempermudah pengelolaan dan pengawasan data
+* Menyediakan sistem monitoring operasional berbasis web
+* Mempermudah pengelolaan dan pengawasan data
+* Menampilkan data secara terstruktur dan real-time
+* Mendukung proses pengambilan keputusan
 
-Menampilkan data secara terstruktur dan real-time
+---
 
-Mendukung proses pengambilan keputusan
+## 👥 Role Pengguna
 
-👥 Role Pengguna
-🔑 Admin
+### 🔑 Admin
 
-Mengelola seluruh data (CRUD)
+* Mengelola seluruh data (CRUD)
+* Mengelola user dan staff
+* Mengelola master data (cabang, ruangan, shift)
+* Melihat laporan patroli, training, dan visit
 
-Mengelola user dan staff
+### 👤 Staff
 
-Mengelola master data (cabang, ruangan, shift)
+* Melihat data yang tersedia
+* Mengakses informasi patroli, training, dan visit
+* Tidak memiliki hak untuk mengelola data
 
-Melihat laporan patroli, training, dan visit
+---
 
-👤 Staff
+## 🧩 Fitur Utama
 
-Melihat data yang tersedia
+* Autentikasi Login
+* Dashboard Monitoring
+* Manajemen User & Staff
+* Manajemen Cabang
+* Manajemen Ruangan
+* Manajemen Shift
+* Data Patroli
+* Data Training
+* Data Visit
+* Tabel Data dengan Pagination & Search
+* Notifikasi Interaktif
 
-Mengakses informasi patroli, training, dan visit
+---
 
-Tidak memiliki hak untuk mengelola data
+## 🛠️ Teknologi yang Digunakan
 
-🧩 Fitur Utama
+### Frontend
 
-Autentikasi Login
+* React JS
+* React Bootstrap
+* Bootstrap
+* Redux
+* React Router DOM
+* React Select
+* SweetAlert2
+* React Data Table Component
 
-Dashboard Monitoring
+### Backend
 
-Manajemen User & Staff
+* Node.js
+* Express.js
+* MongoDB
+* Mongoose
 
-Manajemen Cabang
+### Tools Pendukung
 
-Manajemen Ruangan
+* VS Code
+* Postman
+* Git & GitHub
+* npm
 
-Manajemen Shift
+---
 
-Data Patroli
+## 🚀 Cara Menjalankan Aplikasi (Frontend)
 
-Data Training
+1. Clone repository ini
 
-Data Visit
+   ```bash
+   git clone https://github.com/username/web-monitoring.git
+   ```
+2. Masuk ke folder frontend
 
-Tabel Data dengan Pagination & Search
+   ```bash
+   cd frontend
+   ```
+3. Install dependencies
 
-Notifikasi Interaktif
+   ```bash
+   npm install
+   ```
+4. Jalankan aplikasi
 
-🛠️ Teknologi yang Digunakan
-Frontend
+   ```bash
+   npm start
+   ```
+5. Akses melalui browser
 
-React JS
+   ```
+   http://localhost:3000
+   ```
 
-React Bootstrap
+---
 
-Bootstrap
+## 📂 Struktur Halaman
 
-Redux
+* Login
+* Dashboard
+* User
+* Staff
+* Cabang
+* Ruangan
+* Shift
+* Patrol
+* Training
+* Visit
 
-React Router DOM
+---
 
-React Select
+## 📄 Catatan
 
-SweetAlert2
+* Aplikasi ini menggunakan API sebagai sumber data
+* Hak akses dibedakan berdasarkan role user
+* Data ditampilkan dalam bentuk tabel untuk kemudahan monitoring
 
-React Data Table Component
+---
 
-Backend
+DengN demikian, Web Monitoring System diharapkan dapat menjadi solusi monitoring operasional yang efektif, terstruktur, dan mudah digunakan.
 
-Node.js
+---
 
-Express.js
-
-MongoDB
-
-Mongoose
-
-Tools Pendukung
-
-VS Code
-
-Postman
-
-Git & GitHub
-
-npm
-
-🚀 Cara Menjalankan Aplikasi (Frontend)
-
-Clone repository ini
-
-git clone https://github.com/username/web-monitoring.git
-
-Masuk ke folder frontend
-
-cd frontend
-
-Install dependencies
-
-npm install
-
-Jalankan aplikasi
-
-npm start
-
-Akses melalui browser
-
-http://localhost:3000
-📂 Struktur Halaman
-
-Login
-
-Dashboard
-
-User
-
-Staff
-
-Cabang
-
-Ruangan
-
-Shift
-
-Patrol
-
-Training
-
-Visit
-
-📄 Catatan
-
-Aplikasi ini menggunakan API sebagai sumber data
-
-Hak akses dibedakan berdasarkan role user
-
-Data ditampilkan dalam bentuk tabel untuk kemudahan monitoring
+📌 *Dikembangkan untuk keperluan akademik & pembelajaran*
