@@ -1,0 +1,70 @@
+.dashboard-container {
+  min-height: 100vh;
+  padding-top: 30px;
+}
+
+/* WELCOME CARD */
+.welcome-card {
+  /* background: #b6d3ff; ungu pastel */
+  background: radial-gradient(circle at 20% 20%, #5da1ff, transparent 60%),
+    radial-gradient(circle at 80% 30%, #2e72f5, transparent 60%),
+    radial-gradient(circle at 40% 70%, #1d53cc, transparent 60%),
+    radial-gradient(circle at 80% 80%, #3e5fab, transparent 60%),
+    linear-gradient(135deg, #2e72f5, #1d53cc, #143e9f, #2b59c5);
+  border-radius: 16px;
+
+  border-radius: 16px;
+  padding: 25px;
+  border: none;
+}
+
+.welcome-card h2 {
+  font-size: 28px;
+  color: #333;
+  font-weight: 700;
+}
+
+.welcome-img {
+  width: 180px;
+  height: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .welcome-card {
+    text-align: center;
+  }
+  .welcome-img {
+    display: none;
+  }
+}
+
+/* CARD JUMLAH — MENYAMAI STYLE WELCOME CARD */
+.dashboard-card {
+  padding: 25px 22px;
+  border-radius: 16px;
+  background: #ffffff;
+  border: 1px solid #2e72f5 !important; /* border biru muda */
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.dashboard-card h5 {
+  font-weight: 600;
+  font-size: 16px;
+  color: #6c757d;
+  margin-bottom: 6px;
+}
+
+.dashboard-card h2 {
+  font-weight: 700;
+  font-size: 34px;
+  color: #343a40;
+  margin: 0;
+}

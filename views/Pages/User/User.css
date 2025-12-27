@@ -1,0 +1,44 @@
+/* Container action button */
+.action-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* spacing antar tombol */
+}
+
+/* Base button icon style */
+.btn-icon {
+  width: 45px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* Blue info / edit */
+.btn-info-custom {
+  background-color: #8fc0ff !important;
+  color: #ffffff !important;
+}
+
+.btn-info-custom:hover {
+  background-color: #8fc0ff !important;
+}
+
+/* Red delete */
+.btn-delete-custom {
+  background-color: #d93025 !important;
+  color: #ffffff !important;
+}
+
+.btn-delete-custom:hover {
+  background-color: #b82820 !important;
+}
+
+/* Icon styling */
+.btn-icon i {
+  font-size: 18px;
+}

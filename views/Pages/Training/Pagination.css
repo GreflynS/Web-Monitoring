@@ -1,0 +1,66 @@
+.paginations {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Page link styling */
+  .pages-items-containers {
+    background-color: #dde6ed;
+    display: inline-block;
+    margin: 0 5px;
+    padding: 0px 3px;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #474e68;
+  }
+  
+  .pages-links-labels {
+    color: #474e68;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 0px;
+    display: block;
+    padding: 5px 15px;
+    text-decoration: none;
+    border: 0px solid #474e68;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .pages-items-containers:hover {
+    background-color: #e3f1ff;
+  }
+  
+  .pages-links-labels:hover {
+    color: #000000;
+  }
+  
+  .actives:hover {
+    background-color: #e3f1ff;
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .activess:hover {
+    color: rgb(0, 0, 0);
+  }
+  
+  .activess {
+    color: #ffffff;
+  }
+  
+  .activees {
+    background-color: #a2cffe;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .activees .pages-links-labels {
+    color: #000000;
+  }
